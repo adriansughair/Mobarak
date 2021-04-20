@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "131501421482",
+    "project_id": "mobarak-1f96e",
+    "storage_bucket": "mobarak-1f96e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131501421482:android:d95f5e27117ec6cbc371d3",
+        "android_client_info": {
+          "package_name": "com.mobarak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131501421482-23ettcnvun03as87ni4r3el6ccvo538m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGnUO0g-t0XVHGQg6HRw791LBxvc6YPww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131501421482-23ettcnvun03as87ni4r3el6ccvo538m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

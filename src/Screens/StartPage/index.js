@@ -12,7 +12,7 @@ export default function StartPage1({navigation}) {
             <ImageBackground
             style={{
                 width:width*1,
-                height:height*1,
+                height:height*1.05,
                 alignItems:'center',
             }}
             source={require('./Start_Page.png')}
@@ -25,8 +25,8 @@ export default function StartPage1({navigation}) {
                     marginTop:30,
                     borderRadius:30,
                     width:'85%',
-                    top:"70%"}}
-                //  onPress={() => navigation.navigate('StartPage2')}
+                    top:"64%"}}
+                    onPress={() => navigation.navigate('Login')}
                  >
                     <Text style={ {color:'#fff'}}>
                          User Account
@@ -41,8 +41,8 @@ export default function StartPage1({navigation}) {
                     marginTop:30,
                     borderRadius:30,
                     width:'85%',
-                    top:"70%"}}
-                //  onPress={() => navigation.navigate('StartPage2')}
+                    top:"64%"}}
+                 onPress={() => navigation.navigate('TeacherLogin')}
                  >
                     <Text style={{color:'#fff'}}>
                         Teacher Account

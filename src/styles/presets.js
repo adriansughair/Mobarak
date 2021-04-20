@@ -1,0 +1,405 @@
+import {StyleSheet,Dimensions} from 'react-native';
+import {color} from 'react-native-reanimated';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
+import {Sizing} from '.';
+import colors from './colors';
+
+const height = Dimensions.get('window').height;
+const width = Dimensions.get('window').width;
+module.exports = StyleSheet.create({
+    
+    LoginContainer:{
+        width:width*1,
+        height:height*1.05,
+        alignItems:'center',
+        backgroundColor:colors.white,
+        paddingTop:100,
+    },
+
+    LoginContainer2:{
+        width:width*1,
+        alignItems:'center',
+        backgroundColor:colors.white,
+        paddingTop:100,
+        paddingBottom:100,
+    },
+
+    Loginitem:{
+        width:"90%",
+        paddingTop:20,
+    },
+    Loginitem2:{
+        width:"90%",
+        paddingTop:10,
+    },
+    LoginInput:{
+        backgroundColor:colors.white,
+        elevation:0,
+        height:60,
+        // borderRadius:15,
+        marginTop:15,
+        borderBottomColor:colors.grayLink,
+        borderBottomWidth:0.6,
+        
+    },
+    LoginButton:{
+        backgroundColor:"#187bcd",
+        width:"75%",
+        height:60,
+        alignItems:'center',
+        justifyContent:'center',
+        borderRadius:35,
+    },
+
+    HomeContainer:{
+        width:width*1,
+        alignItems:'center',
+        backgroundColor:colors.white,
+        padding:10,
+        // height:height*0.5,
+    },
+
+    imageitem:{
+        width:180,
+        height:120,
+    },
+
+    Homeitem:{
+        flexDirection: 'row',
+        borderRadius:15,
+        margin:10,
+        elevation:10,
+        backgroundColor:colors.white,
+    },
+    HomeSubItem:{
+        width:'50%',
+        alignItems:'center',
+        justifyContent:'center',
+    },
+    fullScreen: {
+        height: '100%',
+        width: '100%',
+        backgroundColor:colors.white,
+    },
+    headerContainer:{
+        padding:25,
+        flexDirection:"row",
+        justifyContent:'space-between'
+    },
+
+    Headerimage:{
+        width:60,
+        height:60,
+        borderRadius:50,
+    },
+
+    Profileimage:{
+        width:100,
+        height:100,
+        borderRadius:100,
+        margin:5
+    },
+
+    ProfileContainar:{
+        flexDirection:"row",
+        justifyContent:'space-between',
+    },
+
+    ProfileName:{
+        width:'50%',
+        padding:10,
+        justifyContent:'center'
+    },
+    title:{
+        fontWeight:'bold',
+        fontSize:15,
+        color:'blue'
+    },
+    ProfileInfo:{
+        flexDirection:"row",
+        justifyContent:'space-between',
+        padding:15,
+        
+    },
+    FilterContainer:{
+        marginTop:100,
+        alignItems:'center',
+    },
+    Filteritem:{
+        width:"90%",
+    },
+    FilterInput:{
+        borderColor:'blue',
+        borderWidth:0.5,
+        margin:10,
+        elevation:20,
+        backgroundColor:Colors.white,
+        height:65,
+        borderRadius:10,
+
+    },
+    FilterButton:{
+            backgroundColor:'rgba(90, 235, 50, 1)',
+            height:50,
+            width:"90%",
+            alignItems:'center',
+            justifyContent:'center',
+            borderRadius:15,
+    },
+    StartReview:{
+        justifyContent:'center',
+        flexDirection:'row',
+    },
+    ListItemImage:{
+        width:60,
+        height:60,
+        borderRadius:50,
+    },
+    ListItemHeader:{
+        justifyContent:'space-between',
+        flexDirection:'row',
+
+    },
+    ListItem:{
+        width:'95%',
+        borderRadius:15,
+        height:110,
+        padding:10,
+        margin:10,
+        elevation:50,
+        backgroundColor:colors.white,
+    },
+    TeacherListContainer:{
+        paddingBottom:50,
+        paddingTop:50,
+        margin:10        
+    },
+    Request:{
+        width:"65%",
+        height:40,
+        padding:5,
+        borderRadius:5,
+        backgroundColor:"rgba(79, 165, 214, 1)",
+        alignContent:'center',
+        justifyContent:'center',
+        
+    },
+    ReviewView:{
+        height:70,
+        width:"100%",
+        padding:20,
+        marginTop:10,
+        borderRadius:25,
+        elevation:25,
+        backgroundColor:colors.white,
+        justifyContent:'space-between',
+        flexDirection:'row'
+    },
+    qualifView:{
+        height:170,
+        width:"100%",
+        padding:20,
+        marginTop:10,
+        borderRadius:25,
+        elevation:25,
+        backgroundColor:colors.white,
+    },
+    Teaching:{
+        height:120,
+        width:"100%",
+        padding:20,
+        marginTop:10,
+        borderRadius:25,
+        elevation:25,
+        backgroundColor:colors.white,
+    },
+    Schedule:{
+        height:250,
+        width:"100%",
+        padding:20,
+        marginTop:10,
+        borderRadius:25,
+        elevation:25,
+        backgroundColor:colors.white,
+    },
+    ProfileContainar2:{
+        elevation:30,
+        borderRadius:15,
+        marginBottom:5,
+        padding:15,
+        backgroundColor:colors.white,
+    },
+    NameItem:{
+        flexDirection:"row",
+        
+    },
+    CardInput:{
+        borderColor:'blue',
+        borderWidth:0.5,
+        width:"42%",
+        margin:10,
+        elevation:20,
+        backgroundColor:Colors.white,
+        height:65,
+        borderRadius:10,
+    },
+    CardInput2:{
+        borderColor:'blue',
+        borderWidth:0.5,
+        width:"100%",
+        margin:10,
+        elevation:20,
+        backgroundColor:Colors.white,
+        height:65,
+        borderRadius:10,
+    },
+    CardInput3:{
+        borderColor:'blue',
+        borderWidth:0.5,
+        width:"27%",
+        margin:10,
+        elevation:20,
+        backgroundColor:Colors.white,
+        height:65,
+        borderRadius:10,
+    },
+    Carditem:{
+        width:"90%"
+    },
+    AddCardContainer:{
+        marginTop:100,
+        alignContent:"center"
+    },
+    RequsetItem:{
+        flexDirection:"row",
+        justifyContent:"space-between",
+        margin:5,
+    
+    },
+    title2:{
+        fontWeight:'bold',
+        fontSize:17,
+        color:"#000"
+    },
+    TextLink:{
+        fontSize:20,
+        color:'#000',
+        borderBottomColor:"#000",
+        borderBottomWidth:0.8,
+    },
+    History:{
+        alignItems:'center',
+        paddingTop:20,
+        paddingBottom:20,
+        flexDirection:"row",
+        justifyContent:"space-between",
+        width:"90%",
+        borderBottomWidth:1,
+        borderBottomColor:"#000",
+        // elevation:25,
+        // backgroundColor:colors.white
+    },
+    HistoryItem2:{
+        height:100,
+        width:"100%",
+        padding:25,
+        marginTop:15,
+        borderRadius:25,
+        elevation:25,
+        backgroundColor:colors.white,
+        flexDirection:"row",
+        justifyContent:"space-between",
+    },
+    RequsetButton:{
+        backgroundColor:'rgba(69, 195, 218, 1)',
+        height:50,
+        width:"90%",
+        alignItems:'center',
+        justifyContent:'center',
+        borderRadius:15,
+        margin:10
+    },
+    TeacherButtom:{
+        backgroundColor:'#4681FF',
+        height:60,
+        justifyContent:'center',
+        alignItems:'center',
+        marginTop:30,
+        borderRadius:30,
+        width:'45%'
+    },
+    Schedule2:{
+        height:230,
+        width:"100%",
+        padding:15,
+        marginTop:10,
+        borderRadius:25,
+        elevation:25,
+        backgroundColor:colors.white,
+    },
+    Schedule3:{
+        height:height*0.75,
+        width:"100%",
+        padding:20,
+        marginTop:40,
+        borderRadius:25,
+        elevation:25,
+        backgroundColor:colors.white,
+        alignItems:"center",
+    },
+    ScheduleContainar:{
+        height:height*1,
+        borderRadius:15,
+        marginBottom:5,
+        padding:15,
+        backgroundColor:colors.white,
+    },
+    Reviews:{
+        width:"100%", 
+        // height:160,
+        elevation:10,
+        backgroundColor:colors.white,
+        paddingTop:40,
+        paddingBottom:40,
+        marginTop:10,
+        borderRadius:30,
+    },
+    HistoryItem:{
+        width:"95%",
+        flexDirection:"row",
+        justifyContent:"space-between",
+        height:200,
+        elevation:10,
+        padding:15,
+        backgroundColor:colors.white,
+        margin:10,
+        borderRadius:25,
+        alignItems:"center",
+        marginBottom:20
+    },
+    HistoryStatus:{
+        width:"35%",
+        height:160,
+        borderRadius:5,
+        elevation:10,
+        backgroundColor:colors.white,
+    },
+    HistoryInfo:{
+        width:"60%",
+    },
+    HistoryControl:{
+        flexDirection:"row",
+        justifyContent:"space-between",
+        alignItems:"center",
+        paddingTop:15,
+    },
+    Upload:{
+        width:90,
+        flexDirection:"row",
+        justifyContent:"space-between",
+    },
+    accountText:{
+        fontSize:17,
+        color:'blue',
+    },
+});
